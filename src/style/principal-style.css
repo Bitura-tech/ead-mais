@@ -13,7 +13,6 @@
   --azul-accent: #007bff;
 }
 
-/* Corpo */
 body {
   background-color: var(--cinza-claro);
   color: var(--cinza-escuro);
@@ -98,7 +97,6 @@ main {
   gap: 2rem;
 }
 
-/* Mural (lado esquerdo) */
 .mural {
   flex: 1;
   min-width: 400px;
@@ -129,7 +127,6 @@ main {
   transform: translateY(-3px);
 }
 
-/* Eventos (lado direito) */
 .eventos {
   width: 35%;
   min-width: 350px;
