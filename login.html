@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAD+ - Login</title>
+    <link rel="stylesheet" href="/src/style/login-style.css">
+    <link rel="shortcut icon" href="/src/assets/imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="/src/assets/imgs/ead-mais-logo.png" alt="Logo EAD+">
+        <nav>
+            <a href="/principal.html">Mural</a>
+            <a href="/eventos.html">Eventos</a>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <div class="login-box">
+            <h2>Entrar no EAD+</h2>
+            <form id="loginForm">
+                <label for="email">E-mail institucional</label>
+                <input type="email" id="email" placeholder="seuemail@estudante.rn.gov.br" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="********" required>
+
+                <button type="submit">Acessar</button>
+            </form>
+            <p class="desc">Use suas credenciais fornecidas pela instituição para acessar o painel EAD+.</p>
+        </div>
+    </main>
+
+    <footer>
+        <img src="/src/assets/imgs/bitura-footer-logo.png" alt="Bitura Studio">
+    </footer>
+
+    <script>
+        const form = document.getElementById('loginForm');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = '/principal.html'; // Redireciona
+        });
+    </script>
+</body>
+</html>
