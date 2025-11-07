@@ -60,7 +60,7 @@ na **Escola Estadual Professor Antônio Dantas**
 Mais do que um trabalho, o **EAD+** representa uma experiência prática de aprendizado,  
 onde aplicamos o que estudamos em **desenvolvimento web, design e inovação**.  
 
-Também é uma iniciativa que fortalece o **time [Bitura.tech](#)**,  
+Também é uma iniciativa que fortalece o **time [Bitura.tech](https://beacons.ai/bitura)**,  
 um grupo de estudantes que acredita na tecnologia como caminho para criar soluções reais dentro da escola.
 
 ---
